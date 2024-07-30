@@ -1,6 +1,9 @@
 .flex {
      display: flex;
 }
+.flx-dir-col {
+     flex-direction: column;
+}
 .align-center {
      align-items: center;
 }

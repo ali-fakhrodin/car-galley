@@ -1,0 +1,80 @@
+main {
+     /* background-color: var(--color-black); */
+     background-image: url('../img/main/night\(3\).jpg');
+     background-repeat: no-repeat;
+     background-position-x: center ;
+     background-size: 100%;
+     background-position-y: -10rem;
+}
+
+/* --------------------------------- Top --------------------------------- */
+.main-top-section {
+     height: calc(100vh - 6rem);
+}
+
+/* content */
+.main-top-content {
+     height: 85%;
+     color: var(--color-white);
+}
+
+.main-top-content h1 {
+     font-size: 4.2rem;
+     text-align: center;
+     line-height: 4rem;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+
+.main-top-content p {
+     font-size: 1.6rem;
+}
+
+/* Input */
+.main-top-content-inp {
+     width: 50%;
+     position: relative;
+}
+
+.main-top-content-inp input {
+     width: 100%;
+     font-size: 1.2rem;
+     padding-left: 0.5rem;
+     height: 2.5rem;
+}
+
+.main-top-content-inp button {
+     width: 7rem;
+     height: 2rem;
+     position: absolute;
+     top: 10%;
+     right: 4px;
+     border: none;
+     font-size: large;
+     background-color: var(--color-yellow);
+}
+
+.main-top-content a {
+     font-size: 1.3rem;
+}
+
+/* contact */
+.main-top-contact {
+     height: 10%;
+}
+
+.main-social {
+     gap: 0.4rem;
+
+}
+
+.icon {
+     border-radius: 100%;
+     background-color: var(--color-white);
+     padding: 0.5rem;
+}
+
+.main-social-btn {
+     width: 10rem;
+     height: 1.9rem;
+}
