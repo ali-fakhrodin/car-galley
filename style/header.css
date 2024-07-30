@@ -1,5 +1,5 @@
 header {
-     background-color: black;
+     background-color: var(--color-black);
 }
 
 .header-container {
@@ -14,11 +14,6 @@ header {
 .header-logo img {
      width: 100%;
 }
-
-
-
-
-
 
 
 
