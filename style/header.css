@@ -1,0 +1,29 @@
+header {
+     background-color: black;
+}
+
+.header-container {
+     height: 6rem;
+}
+
+/* --------------------------------- Left --------------------------------- */
+.header-logo {
+     width: 12rem;
+}
+
+.header-logo img {
+     width: 100%;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------- Right --------------------------------- */
+
+.header-menu {
+     gap: 3rem;
+}
