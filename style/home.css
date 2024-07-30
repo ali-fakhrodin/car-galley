@@ -1,20 +1,21 @@
 main {
      /* background-color: var(--color-black); */
-     background-image: url('../img/main/night\(3\).jpg');
-     background-repeat: no-repeat;
-     background-position-x: center ;
-     background-size: 100%;
-     background-position-y: -10rem;
+
 }
 
 /* --------------------------------- Top --------------------------------- */
 .main-top-section {
-     height: calc(100vh - 6rem);
+     height: 100vh;
+     background-image: url('../img/main/night\(3\).jpg');
+     background-repeat: no-repeat;
+     background-position-x: center;
+     background-size: cover;
+     position: relative;
 }
 
 /* content */
 .main-top-content {
-     height: 85%;
+     height: 75%;
      color: var(--color-white);
 }
 
@@ -32,7 +33,7 @@ main {
 
 /* Input */
 .main-top-content-inp {
-     width: 50%;
+     width: 46%;
      position: relative;
 }
 
@@ -61,11 +62,12 @@ main {
 /* contact */
 .main-top-contact {
      height: 10%;
+     width: 90%;
+     margin: auto;
 }
 
 .main-social {
      gap: 0.4rem;
-
 }
 
 .icon {
@@ -77,4 +79,56 @@ main {
 .main-social-btn {
      width: 10rem;
      height: 1.9rem;
+}
+
+/* --------------------------------- About --------------------------------- */
+
+.main-about-section {
+     padding: 2rem 3rem;
+     background-color: var(--color-light-gray);
+     position: absolute;
+     left: 5%;
+     right: 5%;
+     z-index: 5;
+     top: 100%;
+}
+
+.main-about-section .left-content {
+     color: var(--color-white);
+     width: 55%;
+     gap: 1.5rem;
+}
+
+.main-about-section .right-content {
+     width: 40%;
+}
+
+.main-about-section .right-content img {
+     width: 100%;
+}
+
+.left-content h3{
+     font-size: 4rem;
+}
+
+.left-content p{
+     font-size: 1.1rem;
+}
+
+.left-content button{
+     font-size: 19px;
+     width: 22%;
+     height: 2rem;
+     border: none;
+     justify-content: space-evenly;
+     font-weight: bold;
+     background-color: var(--color-yellow);
+}
+
+.left-content button i{
+     padding: 6px;
+     border-radius: 100%;
+     font-size: 12px;
+     color: var(--color-yellow);
+     background-color: var(--color-black);
 }

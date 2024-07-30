@@ -8,6 +8,9 @@
      font-family: sans-serif;
 }
 
+body {
+     background-color: var(--color-dark-gray);
+}
 :root {
      --color-white: #ffffff;
      --color-black: #040707;
