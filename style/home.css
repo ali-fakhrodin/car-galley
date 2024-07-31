@@ -1,6 +1,4 @@
 main {
-     /* background-color: var(--color-black); */
-
 }
 
 /* --------------------------------- Top --------------------------------- */
@@ -10,7 +8,6 @@ main {
      background-repeat: no-repeat;
      background-position-x: center;
      background-size: cover;
-     position: relative;
 }
 
 /* content */
@@ -86,11 +83,9 @@ main {
 .main-about-section {
      padding: 2rem 3rem;
      background-color: var(--color-light-gray);
-     position: absolute;
-     left: 5%;
-     right: 5%;
+     position: relative;
      z-index: 5;
-     top: 100%;
+     margin-top: -5%;
 }
 
 .main-about-section .left-content {
