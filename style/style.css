@@ -1,5 +1,6 @@
-@import url('./header.css');
 @import url('./short.css');
+@import url('./header.css');
+@import url('./footer.css');
 
 * {
      padding: 0;
@@ -28,11 +29,11 @@ hr {
      border: none;
      border-width: 10.1px;
      font-weight: 100;
-     margin: auto;
      background: #ffffff73;
      animation: hr-frame 3s ease 0.5s alternate;
      animation-iteration-count: infinite;
      animation-fill-mode: forwards;
+     margin: 3rem auto;
 }
 
 @keyframes hr-frame {

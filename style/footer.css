@@ -1,0 +1,77 @@
+.swiper-pagination {
+     height: 2rem !important;
+}
+
+.swiper-wrapper {
+     /* padding: 0 2rem; */
+     height: 32rem !important;
+}
+
+.slide-box {
+     background-color: var(--color-light-gray);
+     width: 17rem;
+     height: 28rem;
+     transition: all ease 0.2s;
+}
+
+.slide-box:hover {
+     background-color: rgba(0, 255, 255, 0.252);
+     transform: scale(1.08) translateY(-1.4rem);
+}
+
+.slide-box .img {
+     width: 100%;
+     height: 55%;
+     overflow: hidden;
+}
+
+.slide-box .img img {
+     width: 100%;
+}
+
+/* ------------------------------------ Footer Top ------------------------------------ */
+.footer-top {
+     text-align: center;
+     color: var(--color-white);
+     margin: 0 auto 3rem auto;
+}
+.footer-top h2 {
+     font-size: 2.5rem;
+}
+
+.footer-top p {
+     color: var(--color-yellow);
+     font-size: 1.3rem;
+     margin-top: 1rem;
+}
+/* ------------------------------------ Slider Infos ------------------------------------ */
+.slider-infos {
+     width: 100%;
+     padding: 1rem;
+}
+
+.info-bottom button {
+     background-color: var(--color-yellow);
+     font-size: 12px;
+     font-weight: bold;
+     border: none;
+     padding: 1px 15px;
+}
+
+.swiper-pagination-fraction {
+     /* top: 1px !important; */
+     color: var(--color-white) !important;
+     z-index: 500;
+}
+
+.swiper-scrollbar {
+     top: 10rem;
+}
+
+.swiper-pagination-bullet {
+     background-color: aliceblue !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+     background-color: var(--color-yellow) !important;
+}
