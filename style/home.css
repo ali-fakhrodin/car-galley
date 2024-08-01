@@ -9,7 +9,7 @@
      position: relative;
      z-index: 10;
      
-     --brightness-img: 0.5;
+     --brightness-img: 0.7;
 }
 
 .main-top-section::before {
@@ -19,11 +19,11 @@
      position: absolute;
      width: 100%;
      height: 100%;
-     backdrop-filter: blur(3px) brightness(var(--brightness-img));
+     backdrop-filter: blur(2px) brightness(var(--brightness-img));
 }
 
 .main-top-section.animate::before {
-     backdrop-filter: blur(30px) brightness(0.6);
+     backdrop-filter: blur(30px) brightness(0.3);
 }
 
 .main-top-contact,
