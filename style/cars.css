@@ -1,0 +1,8 @@
+main {
+     margin-top: 1.5rem;
+}
+.slides-wrapper {
+     display: grid;
+     row-gap: 5%;
+     grid-template-columns: repeat(4, 1fr);
+}

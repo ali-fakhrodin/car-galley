@@ -1,0 +1,31 @@
+body {
+     height: 100vh;
+     width: 100%;
+     color: var(--color-white);
+}
+
+form {
+     gap: 1rem;
+}
+
+form .inp-box {
+     width: 25rem;
+}
+
+form .inp-box input,textarea {
+     width: 100%;
+     padding-left: 0.5rem;
+     border: none;
+}
+
+form .inp-box input{
+     height: 2rem;
+}     
+
+form .inp-box textarea {
+     height: 5rem;
+}     
+
+form .inp-box input[type="submit"] {
+     background-color: darkturquoise;
+}

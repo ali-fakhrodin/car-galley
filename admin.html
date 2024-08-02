@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./style/style.css">
+     <link rel="stylesheet" href="./style/admin.css">
+</head>
+<body class="flex align-center jus-cen flx-dir-col">
+
+     <p style="font-size: 2rem; margin-bottom: 2rem;">Add New Car</p>
+     <form action="" class="flex jus-cen align-center flx-dir-col">
+          <div class="inp-box">
+               <label for="car-name">Image</label>
+               <input type="file" name="car" id="car-name" required>
+          </div>
+
+          <div class="inp-box">
+               <label for="car-name-inp">Car Name</label>
+               <input type="text" name="car" id="car-name-inp" minlength="3" maxlength="18" required placeholder="Porche">
+          </div>
+          
+          <div class="inp-box">
+               <label for="car-price-inp">Price</label>
+               <input type="text" name="car-price" id="car-price-inp" minlength="3" maxlength="7" required placeholder="97000">
+          </div>
+
+          <div class="inp-box">
+               <label for="more-data-inp">More Data</label>
+               <textarea type="text" name="car-detailes" id="more-data-inp" minlength="10" maxlength="100" required placeholder="More Detailes ..."></textarea>
+          </div>     
+          
+          <div class="inp-box">
+               <label for="submit">Go</label>
+               <input type="submit" name="submit" id="submit" required>
+          </div>
+     </form>
+</body>
+</html>
