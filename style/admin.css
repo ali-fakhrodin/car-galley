@@ -1,7 +1,13 @@
 body {
      height: 100vh;
+     overflow: hidden;
      width: 100%;
      color: var(--color-white);
+     background-image: url('../img/cars/dar_01.jpg');
+     backdrop-filter: blur(5px) brightness(0.5);
+     background-position-x: center;
+     background-position-y: center;
+     background-size: cover;
 }
 
 form {
@@ -9,7 +15,7 @@ form {
 }
 
 form .inp-box {
-     width: 25rem;
+     width: 22rem;
 }
 
 form .inp-box input,textarea {
@@ -20,7 +26,7 @@ form .inp-box input,textarea {
 
 form .inp-box input{
      height: 2rem;
-}     
+}
 
 form .inp-box textarea {
      height: 5rem;
@@ -28,4 +34,8 @@ form .inp-box textarea {
 
 form .inp-box input[type="submit"] {
      background-color: darkturquoise;
+}
+
+form .inp-box input[type="submit"]:hover {
+     background-color: azure;
 }

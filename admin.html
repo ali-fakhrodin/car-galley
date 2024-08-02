@@ -10,10 +10,11 @@
 <body class="flex align-center jus-cen flx-dir-col">
 
      <p style="font-size: 2rem; margin-bottom: 2rem;">Add New Car</p>
+
      <form action="" class="flex jus-cen align-center flx-dir-col">
           <div class="inp-box">
-               <label for="car-name">Image</label>
-               <input type="file" name="car" id="car-name" required>
+               <label for="image-inp">Image</label>
+               <input type="file" name="car" id="image-inp" required>
           </div>
 
           <div class="inp-box">
@@ -32,9 +33,14 @@
           </div>     
           
           <div class="inp-box">
-               <label for="submit">Go</label>
-               <input type="submit" name="submit" id="submit" required>
+               <label for="submit-btn">Go</label>
+               <input type="submit" name="submit" id="submit-btn" required>
           </div>
      </form>
+
+     <!-- axios -->
+     <script src="./js/libs/axios.js"></script>
+     <!-- cars -->
+     <script src="./js/admin.js"></script>
 </body>
 </html>

@@ -1,3 +1,19 @@
+/* ------------------------------------ Footer Top ------------------------------------ */
+.footer-top {
+     text-align: center;
+     color: var(--color-white);
+     margin: 0 auto 3rem auto;
+}
+.footer-top h2 {
+     font-size: 2.5rem;
+}
+
+.footer-top p {
+     color: var(--color-yellow);
+     font-size: 1.3rem;
+     margin-top: 1rem;
+}
+/* ------------------------------------ Footer Bottom ------------------------------------ */
 .swiper-pagination {
      height: 2rem !important;
 }
@@ -11,6 +27,7 @@
      width: 17rem;
      height: 28rem;
      transition: all ease 0.2s;
+     position: relative;
 }
 
 .slide-box:hover {
@@ -28,25 +45,18 @@
      width: 100%;
 }
 
-/* ------------------------------------ Footer Top ------------------------------------ */
-.footer-top {
-     text-align: center;
-     color: var(--color-white);
-     margin: 0 auto 3rem auto;
-}
-.footer-top h2 {
-     font-size: 2.5rem;
-}
-
-.footer-top p {
-     color: var(--color-yellow);
-     font-size: 1.3rem;
-     margin-top: 1rem;
-}
 /* ------------------------------------ Slider Infos ------------------------------------ */
 .slider-infos {
      width: 100%;
      padding: 1rem;
+}
+
+.info-bottom {
+     /* display: block !important; */
+     position: absolute;
+     bottom: 1.2rem;
+     left: 1rem;
+     right: 1rem;
 }
 
 .info-bottom button {
@@ -58,7 +68,6 @@
 }
 
 .swiper-pagination-fraction {
-     /* top: 1px !important; */
      color: var(--color-white) !important;
      z-index: 500;
 }

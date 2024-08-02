@@ -39,19 +39,7 @@ setInterval(() => {
 
 // ---------------------------------------- End Changing Main Images ----------------------------------------
 
-// ---------------------------------------- Start Set and Get Api ----------------------------------------
-// axios({
-//      method: 'post',
-//      url: 'https://car-gallery-62d37-default-rtdb.firebaseio.com/footer-slide.json',
-//      data:
-// })
-//      .then(response => {
-//           console.log(response);
-//      })
-//      .catch(error => {
-//           console.log(error);
-//      });
-
+// ---------------------------------------- Start Geting Api ----------------------------------------
 window.addEventListener('DOMContentLoaded', () => {
      swiperWrapper.innerHTML = ''
      axios({
@@ -88,7 +76,7 @@ window.addEventListener('DOMContentLoaded', () => {
           .then(() => {
                swiperWrapper.insertAdjacentHTML('beforeend', `
                     <div class="swiper-slide" style="position: relative; height: 28rem; background-color: var(--color-light-gray);">
-                         <a href="#"
+                         <a href="./cars.html"
                               style="position: absolute;top: 13rem;text-align: center; left: 0; right: 0;">More...
                          </a>
                     </div>
