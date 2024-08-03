@@ -83,3 +83,47 @@
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
      background-color: var(--color-yellow) !important;
 }
+
+/* ------------------------ footer bottom ------------------------ */
+.footer-bottom {
+     border-radius: 1rem;
+     box-shadow: 1px 1px 20px 0px #ffffff47;
+     margin-top: 2rem;
+     justify-content: space-around;
+     color: var(--color-white);
+     height: 20rem;
+}
+
+/* -------- left -------- */
+.footer-left{
+     justify-content: space-between;
+     gap: 2rem;
+}
+
+.footer-left-input {
+     gap: 5px;
+}
+
+.footer-left-input input,button {
+     border: none;
+     height: 1.5rem;
+     border-radius: 5px;
+}
+
+.footer-left-input button:hover {
+     background-color: var(--color-yellow);
+}
+
+/* -------- right -------- */
+.footer-bottom .footer-right {
+     gap: 1.5rem;
+     align-items: baseline;
+}
+
+.footer-bottom .footer-right a:hover {
+     color: var(--color-yellow);
+}
+
+.footer-bottom .footer-right i {
+     font-size: 1.6rem;
+}
