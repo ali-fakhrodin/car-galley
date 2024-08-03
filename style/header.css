@@ -15,10 +15,48 @@ header {
      width: 100%;
 }
 
-
-
 /* --------------------------------- Right --------------------------------- */
-
 .header-menu {
      gap: 3rem;
+}
+
+.header-menu li a:hover {
+     color: var(--color-yellow);
+}
+
+/* --------------------------------- Responsive --------------------------------- */
+@media screen and (max-width: 720px) {
+     .header-container {
+          height: 5rem;
+     }
+
+     .header-logo {
+          width: 8rem;
+     }
+
+     .header-menu {
+          gap: 2rem;
+     }
+
+     .header-menu a {
+          font-size: 13px !important;
+     }
+}
+
+@media screen and (max-width: 520px) {
+     .header-container {
+          height: 4rem;
+     }
+
+     .header-logo {
+          width: 5rem;
+     }
+
+     .header-menu {
+          gap: 1.5rem;
+     }
+
+     .header-menu a {
+          font-size: 11px !important;
+     }
 }
