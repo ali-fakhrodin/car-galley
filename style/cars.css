@@ -1,8 +1,38 @@
 main {
      margin-top: 1.5rem;
 }
+
 .cars-wrapper {
      display: grid;
-     row-gap: 5%;
+     row-gap: 2rem;
      grid-template-columns: repeat(4, 1fr);
+     justify-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+     .cars-wrapper {
+          grid-template-columns: repeat(3, 1fr);
+     }
+}
+
+@media screen and (max-width: 980px) {
+     .cars-wrapper {
+          grid-template-columns: repeat(2, 1fr);
+     }
+
+     .slide-box {
+          width: 90%;
+          margin: auto;
+     }
+}
+
+@media screen and (max-width: 630px) {
+     .cars-wrapper {
+          grid-template-columns: repeat(1, 1fr);
+     }
+     
+     .slide-box {
+          width: 90%;
+          margin: auto;
+     }
 }

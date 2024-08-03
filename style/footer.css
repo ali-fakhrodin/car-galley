@@ -32,7 +32,7 @@
 
 .slide-box:hover {
      background-color: rgba(0, 255, 255, 0.252);
-     transform: scale(1.08) translateY(-1.4rem);
+     transform: scale(1.05) translateY(-1rem);
 }
 
 .slide-box .img {
@@ -88,7 +88,6 @@
 .footer-bottom {
      border-radius: 1rem;
      box-shadow: 1px 1px 20px 0px #ffffff47;
-     margin-top: 2rem;
      justify-content: space-around;
      color: var(--color-white);
      height: 20rem;
@@ -98,16 +97,23 @@
 .footer-left{
      justify-content: space-between;
      gap: 2rem;
-}
+     flex-wrap: wrap;
+     text-align: center;
+     margin: auto;
+ }
+
 
 .footer-left-input {
      gap: 5px;
 }
 
-.footer-left-input input,button {
+.footer-left-input input, 
+.footer-left-input button {
      border: none;
      height: 1.5rem;
      border-radius: 5px;
+     margin: auto;
+     width: 100%;
 }
 
 .footer-left-input button:hover {
@@ -118,12 +124,18 @@
 .footer-bottom .footer-right {
      gap: 1.5rem;
      align-items: baseline;
+     margin: auto;
+}
+
+.footer-bottom .footer-right a {
+     font-size: 14px;
 }
 
 .footer-bottom .footer-right a:hover {
      color: var(--color-yellow);
 }
 
+
 .footer-bottom .footer-right i {
-     font-size: 1.6rem;
+     font-size: 1.5rem;
 }

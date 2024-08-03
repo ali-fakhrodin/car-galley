@@ -20,7 +20,7 @@ const getCarsFromFirbase = () => {
                          <div class="swiper-slide">
                               <div class="slide-box">
                                    <div class="img">
-                                        <img src="../img/cars/porche.jpg" alt="image">
+                                        <img src="img/cars/porche.jpg" alt="image">
                                    </div>
 
                                    <div class="slider-infos">
