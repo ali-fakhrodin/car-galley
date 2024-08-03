@@ -2,10 +2,10 @@ const $ = document
 
 const backImage = $.querySelector('.main-top-section')
 const mainImagesUrls = [
-     "url('../img/main/julian-friedle-mTDbPUKUvNE-unsplash.jpg')",
-     "url('../img/main/peter-broomfield-m3m-lnR90uM-unsplash.jpg')",
-     "url('../img/main/donny-jiang-41xHdTcuWq0-unsplash.jpg')",
-     "url('../img/main/jonathan-gallegos-5FGqfV6UjzI-unsplash.jpg')",
+     "url('img/main/julian-friedle-mTDbPUKUvNE-unsplash.jpg')",
+     "url('img/main/peter-broomfield-m3m-lnR90uM-unsplash.jpg')",
+     "url('img/main/donny-jiang-41xHdTcuWq0-unsplash.jpg')",
+     "url('img/main/jonathan-gallegos-5FGqfV6UjzI-unsplash.jpg')",
 ]
 let index = 0
 const swiperParent = $.querySelector('.wrapper')
