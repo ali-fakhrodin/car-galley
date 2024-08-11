@@ -342,3 +342,9 @@
           width: 90%;
      }
 }
+
+@media screen and (max-width: 620px) {
+     .slide-box {
+          margin: auto;
+     }
+}

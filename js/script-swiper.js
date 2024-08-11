@@ -7,7 +7,7 @@ const checkForAddSlides = setInterval(() => {
                autoplay: {
                     delay: 2000
                },
-               direction: getDirection(),
+               direction: 'horizontal',
                grabCursor: true,
                scrollbar: {
                     el: '.swiper-scrollbar',
@@ -26,19 +26,37 @@ const checkForAddSlides = setInterval(() => {
                     enabled: true,
                     onlyInViewport: false,
                },
-               on: {
-                    resize: function () {
-                         swiper.changeDirection(getDirection());
+               breakpoints: {
+                    0: {
+                         slidesPerView: 1,
+                         spaceBetween: -50,
                     },
-               },
+                    620: {
+                         slidesPerView: 2,
+                         spaceBetween: -15,
+                    },
+                    920: {
+                         slidesPerView: 3,
+                         spaceBetween: -15,
+                    },
+                    1300: {
+                         slidesPerView: 4,
+                         spaceBetween: -20,
+                    }
+               }
+               // on: {
+               // resize: function () {
+               // swiper.changeDirection(getDirection());
+               // },
+               // },
           });
 
-          function getDirection() {
-               var windowWidth = window.innerWidth;
-               var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+          // function getDirection() {
+          // var windowWidth = window.innerWidth;
+          // var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
 
-               return direction;
-          }
+          // return direction;
+          // }
           clearInterval(checkForAddSlides)
      }
 }, 100)
